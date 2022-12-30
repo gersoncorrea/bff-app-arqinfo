@@ -1,0 +1,56 @@
+## ArqInfo [/arqinfo]
+
+### Login (Recebe tela de Login) [GET /arqinfo/login]
++ Response 200 (application/json)
+    + Attributes (Login)
+    
+### Forgot (Recebe tela de Login) [GET /arqinfo/forgotPassword]
++ Response 200 (application/json)
+    + Attributes (ForgotPassword)
+
+### Forgot (Recebe tela de Cadastro) [GET /arqinfo/signup]
++ Response 200 (application/json)
+    + Attributes (SignUp)
+
+# Data Structures
+
+#### Login (object)
+
++ header (object) 
+  + img: cdn.teste (string)
+  + labelUserInput (object)
+        + title: `E-mail` (string)
+        + type: TEXT 
+  + labelPasswordInput (object) 
+        + title: Senha (string)
+        + type: PASSWORD (string)
++ forgotPassword: Esqueci a senha (string) 
++ bottom (object)
+    + button: ENTRAR (string)
+    + signup: Criar Conta (string) 
+
+
+### ForgotPassword (object)
+  + img: cdn.teste (string)
+  + label (object)
+      + title: `E-mail` (string)
+      + type: TEXT (string) 
+  + button: ENVIAR (string)      
+
+#### SignUp (object)
+
+  + imgHeader: cdn.teste (string)
+  + labels (array)
+    + (object)
+        + title: Nome (string)
+        + type: TEXT 
+    + (object)
+        + title: `E-mail` (string)
+        + type: TEXT 
+    + (object) 
+        + title: Senha (string)
+        + type: PASSWORD (string)
+    + (object) 
+        + title: Repetir Senha (string)
+        + type: PASSWORD (string)
++ button: Concluir Cadastro (string)
