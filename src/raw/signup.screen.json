@@ -1,0 +1,22 @@
+{
+  "imgHeader":"cdn.teste",
+  "labels":[
+    {
+      "title":"Nome",
+      "type":"TEXT"
+    },
+    {
+      "title":"E-mail",
+      "type":"TEXT"
+    },
+    {
+      "title":"Senha",
+      "type":"PASSWORD"
+    },
+    {
+      "title":"Repetir senha",
+      "type":"PASSWORD"
+    }
+  ],
+  "button":"Concluir Cadastro"
+}

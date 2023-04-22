@@ -9,7 +9,9 @@
     "outputPath": "build"
   },
   "scripts": {
-    "compile": "npx pkg -t macos . --out-path bin",
+    "compile-mac": "npx pkg -t macos . --out-path bin",
+    "compile-windows": "npx pkg -t win . --out-path bin",
+    "compile-linux": "npx pkg -t line . --out-path bin",
     "build": "npx tsc",
     "start": "node build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
