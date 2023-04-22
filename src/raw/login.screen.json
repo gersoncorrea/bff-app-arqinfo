@@ -1,0 +1,18 @@
+{
+    "header": {
+    "img": "cdn.teste",
+    "labelUserInput": {
+      "title": "E-mail",
+      "type": "TEXT"
+    },
+    "labelPasswordInput": {
+      "title": "Senha",
+      "type": "PASSWORD"
+    }
+  },
+  "forgotPassword": "Esqueci a senha",
+  "bottom": {
+    "button": "ENTRAR",
+    "signup": "Criar Conta"
+  }
+}
