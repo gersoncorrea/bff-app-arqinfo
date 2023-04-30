@@ -1,0 +1,55 @@
+{
+  "header":{
+    "title": "Tudo Sobre arquitetura na palma da mão",
+    "description": "Explore diversas categorias em nosso app",
+    "search": "Realize a sua busca"
+  },
+  "highlightArticle":
+  [
+    {
+      "id": 1,
+      "image":"",
+      "title":"Fugiat officia nulla pariatur consequat veniam ullamco et cupidatat est est eiusmod commodo.",
+      "description":"Por: Mariana Lopes",
+      "liked": false
+    },
+    {
+      "id": 2,
+      "image":"",
+      "title":"Fugiat officia nulla pariatur consequat veniam ullamco et cupidatat est est eiusmod commodo.",
+      "description":"Por: Mariana Lopes",
+      "liked": false
+    },
+    {
+      "id": 3,
+      "image":"",
+      "title":"Fugiat officia nulla pariatur consequat veniam ullamco et cupidatat est est eiusmod commodo.",
+      "description":"Por: Mariana Lopes",
+      "liked": false
+    }
+  ],
+  "recommendArticle":
+  [
+    {
+      "id": 1,
+      "image":"",
+      "title":"Fugiat officia nulla pariatur consequat veniam ullamco et cupidatat est est eiusmod commodo.",
+      "description":"Por: Mariana Lopes",
+      "liked": false
+    },
+    {
+      "id": 2,
+      "image":"",
+      "title":"Fugiat officia nulla pariatur consequat veniam ullamco et cupidatat est est eiusmod commodo.",
+      "description":"Por: Mariana Lopes",
+      "liked": false
+    },
+    {
+      "id": 3,
+      "image":"",
+      "title":"Fugiat officia nulla pariatur consequat veniam ullamco et cupidatat est est eiusmod commodo.",
+      "description":"Por: Mariana Lopes",
+      "liked": false
+    }
+  ]
+}
